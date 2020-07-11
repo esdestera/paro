@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="position: fixed; top: 0px; width: 100%;">
+  <div class="social-buttons">
+    <a href="https://www.facebook.com/raduivoiculescu" class="fa fa-facebook fa-button" target="_blank"></a>
+    <a href="https://www.instagram.com/radu_voiculescu" class="fa fa-instagram fa-button" target="_blank"></a>
+    <a href="https://www.reddit.com/" target="_blank" class="fa fa-reddit fa-button"></a>
+  </div>
+  <nav class="navbar navbar-inverse"
+    style="min-height: 80px; height: 80px; background-color: transparent; border-radius: 0%; border-color: gray; margin:0px; border: none">
+    <div
+      style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 0px; margin-right: 0px; height: 100%; align-items: flex-end;">
+      <div class="navbar-header">
+        <a class="navbar-brand" style="font-size: 22px; color: black;" href="">PARODONTITA</a>
+      </div>
+      <ul class="nav navbar-nav" style="font-size: 20px; color: black;">
+        <li [routerLinkActive]="['active']"><a routerLink="">DESPRE NOI</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/for-patients">PENTRU PACIENTI</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/for-doctors">PENTRU MEDICI</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/contact-us">CONTACTEAZA-NE</a></li>
+        <li [routerLinkActive]="['active']"><a routerLink="/members">MEMBRI</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<router-outlet ></router-outlet>

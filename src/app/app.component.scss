@@ -1,0 +1,53 @@
+.app-page{
+  height: 100%;
+  width: 100%;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 11px;
+    border-radius: 19%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-button {
+    background: transparent;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+}
+
+.social-buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 2%;
+    border-bottom: 1px solid;    
+}
+
+:host ::ng-deep{
+  a{
+    color: black !important;
+  }
+  a:hover {
+    color: gray !important;
+  }
+  
+  /* selected link */
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    text-decoration: underline;
+    background-color: transparent;
+    color: black;
+  }
+}
+
+
+
